@@ -4,7 +4,6 @@ from display import Display
 from extractor import Extractor
 
 
-
 W = 1920//2
 H = 1080//2
 
