@@ -4,7 +4,7 @@ import sdl2.ext
 class Display(object):
   def __init__(self,W,H):
     self.W, self.H = W, H  
-    self.window = sdl2.ext.Window("Slam auto pilot", size=(W,H), position=(0,500))
+    self.window = sdl2.ext.Window("Slam auto pilot", size=(W,H), position=None)
     self.window.show();
 
   def paint(self,img):
